@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.card {
+    width: 400px;
+    height: 500px;
+    border: 2px solid;
+    margin: auto;
+    border-radius: 25px;
+    overflow: hidden;
+}
+
+.card_background {
+    background-image: url(../img/fundo-de-tecnologia-da-informacao-com-elementos-de-infografico-e-icones-lisos_302149-127.avif);
+    background-size: cover;
+    height: 220px;
+    position: relative;
+}
+
+.card__img {
+    width: 55%;
+    position: absolute;
+    top: 5px;
+    left: 100px;
+}
+
+.card_descricao {
+    padding: 20px;
+
+}
+
+.card_descricao h2 {
+    margin-bottom: 10px;
+    text-align: center;
+    color: black;
+}
+
+.card_descricao p {
+    margin-bottom: 10px;
+    text-align: justify;
+    color: black;
+}
+
+.card_descricao span {
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    display: block;
+}
+
+.card_botao button {
+    display: block;
+    margin: auto;
+    border: 1px solid black;
+    padding: 8px 12px;
+    border-radius: 10px;
+    background-color: black;
+}
+
+.card_botao button a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.card_botao button:hover {
+    background-color: rgb(187, 187, 187);
+}
